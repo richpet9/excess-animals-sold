@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="91">
+<modDesc descVersion="92">
     <author>RichOPick</author>
     <version>1.0.0.0</version>
 	<title>
         <en>Excess Animals Sold</en>
         <de>Überschüssige Tiere Verkauft</de>
         <pl>Sprzedano Nadmiar Zwierząt</pl>
-        <ru>Лишние животные проданы</ru>
+        <ru>Лишние Животные Проданы</ru>
         <fr>Animaux Excédentaires Vendus</fr>
-        <it>Animali in Eccesso Venduti</it>
-        <es>Exceso de Animales Vendidos</es>
+        <it>Animali In Eccesso Venduti</it>
+        <es>Exceso De Animales Vendidos</es>
     </title>
     <description>
         <en><![CDATA[Excess Animals Sold
@@ -18,10 +18,6 @@ This mod changes animal husbandry placeables so they sell baby animals when the 
 
 For example, suppose your cowshed has a capacity of 20 cows and contains 18 cows.
 If 4 of those cows are ready to reproduce, then upon reproducing 2 calves will be added to the shed, and 2 calves will be sold.
-
-Changelog:
-v1.0.0.0
-- Initial release.
 
 Please leave feedback, requests, or bug reports on GitHub: https://github.com/richpet9/excess-animals-sold
 ]]>
@@ -33,10 +29,6 @@ Dieser Mod ändert platzierbare Tierhaltungsobjekte, sodass Tierbabys verkauft w
 Angenommen, Ihr Kuhstall hat eine Kapazität für 20 Kühe und beherbergt 18 Kühe.
 Wenn vier dieser Kühe zur Fortpflanzung bereit sind, werden nach der Fortpflanzung zwei Kälber in den Stall gegeben und zwei Kälber verkauft.
 
-Änderungsprotokoll:
-v1.0.0.0
-- Erstveröffentlichung.
-
 Bitte hinterlassen Sie Feedback, Wünsche oder Fehlerberichte auf GitHub: https://github.com/richpet9/excess-animals-sold
 ]]>
 </de>
@@ -46,10 +38,6 @@ Ten mod zmienia obiekty do umieszczania w hodowli zwierząt, tak aby sprzedawał
 
 Załóżmy na przykład, że twoja obora ma pojemność 20 krów i zawiera 18 krów.
 Jeśli 4 z tych krów będą gotowe do rozrodu, to po rozrodzie 2 cielęta zostaną dodane do obór, a 2 cielęta zostaną sprzedane.
-
-Dziennik zmian:
-wersja 1.0.0.0
-- Pierwsze wydanie.
 
 Prosimy o pozostawienie opinii, próśb lub raportów o błędach w GitHub: https://github.com/richpet9/excess-animals-sold
 ]]>
@@ -61,10 +49,6 @@ Prosimy o pozostawienie opinii, próśb lub raportów o błędach w GitHub: http
 Например, предположим, что ваш коровник вмещает 20 коров и содержит 18 коров.
 Если из этих коров 4 готовы к воспроизводству, то при воспроизводстве в коровник добавляются 2 теленка, а 2 теленка продаются.
 
-Список изменений:
-v1.0.0.0
-- Первоначальный выпуск.
-
 Пожалуйста, оставляйте отзывы, запросы или отчеты об ошибках на GitHub: https://github.com/richpet9/excess-animals-sold.
 ]]>
 </ru>
@@ -74,10 +58,6 @@ Ce mod modifie les objets d'élevage afin qu'ils vendent des bébés animaux lor
 
 Par exemple, supposons que votre étable ait une capacité de 20 vaches et contienne 18 vaches.
 Si 4 de ces vaches sont prêtes à se reproduire, alors lors de la reproduction, 2 veaux seront ajoutés au hangar et 2 veaux seront vendus.
-
-Journal des modifications :
-v1.0.0.0
-- Version initiale.
 
 Veuillez laisser vos commentaires, demandes ou rapports de bogues sur GitHub : https://github.com/richpet9/excess-animals-sold
 ]]>
@@ -89,10 +69,6 @@ Questa mod modifica i posizionamenti dell'allevamento di animali in modo da vend
 Ad esempio, supponiamo che la tua stalla abbia una capacità di 20 mucche e ne contenga 18.
 Se 4 di queste mucche sono pronte per riprodursi, dopo la riproduzione 2 vitelli verranno aggiunti alla stalla e 2 vitelli verranno venduti.
 
-Registro delle modifiche:
-v1.0.0.0
-- Rilascio iniziale.
-
 Si prega di lasciare feedback, richieste o segnalazioni di bug su GitHub: https://github.com/richpet9/excess-animals-sold
 ]]>
 </it>
@@ -102,10 +78,6 @@ Este mod cambia los lugares de cría de animales para que vendan animales bebés
 
 Por ejemplo, supongamos que su establo tiene una capacidad de 20 vacas y contiene 18 vacas.
 Si 4 de esas vacas están listas para reproducirse, al reproducirse se agregarán 2 terneros al cobertizo y se venderán 2 terneros.
-
-Registro de cambios:
-v1.0.0.0
-- Lanzamiento inicial.
 
 Deje comentarios, solicitudes o informes de errores en GitHub: https://github.com/richpet9/excess-animals-sold
 ]]>
