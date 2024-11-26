@@ -23,25 +23,91 @@ Changelog:
 v1.0.0.0
 - Initial release.
 
-Please leave feedback, requests, or bug reports on GitHub: 
+Please leave feedback, requests, or bug reports on GitHub: https://github.com/richpet9/excess-animals-sold
 ]]>
 </en>
-    <de><![CDATA[
+    <de><![CDATA[Überschüssige Tiere Verkauft
+
+Dieser Mod ändert platzierbare Tierhaltungsobjekte, sodass Tierbabys verkauft werden, wenn die Haltung voll ist, anstatt sie zu löschen.
+
+Angenommen, Ihr Kuhstall hat eine Kapazität für 20 Kühe und beherbergt 18 Kühe.
+Wenn vier dieser Kühe zur Fortpflanzung bereit sind, werden nach der Fortpflanzung zwei Kälber in den Stall gegeben und zwei Kälber verkauft.
+
+Änderungsprotokoll:
+v1.0.0.0
+- Erstveröffentlichung.
+
+Bitte hinterlassen Sie Feedback, Wünsche oder Fehlerberichte auf GitHub: https://github.com/richpet9/excess-animals-sold
 ]]>
 </de>
-    <pl><![CDATA[
+    <pl><![CDATA[Sprzedano Nadmiar Zwierząt
+
+Ten mod zmienia obiekty do umieszczania w hodowli zwierząt, tak aby sprzedawały młode zwierzęta, gdy hodowla jest pełna, zamiast je usuwać.
+
+Załóżmy na przykład, że twoja obora ma pojemność 20 krów i zawiera 18 krów.
+Jeśli 4 z tych krów będą gotowe do rozrodu, to po rozrodzie 2 cielęta zostaną dodane do obór, a 2 cielęta zostaną sprzedane.
+
+Dziennik zmian:
+wersja 1.0.0.0
+- Pierwsze wydanie.
+
+Prosimy o pozostawienie opinii, próśb lub raportów o błędach w GitHub: https://github.com/richpet9/excess-animals-sold
 ]]>
 </pl>
-    <ru><![CDATA[
+    <ru><![CDATA[Продано лишних животных
+
+Этот мод изменяет размещаемые объекты животноводства, чтобы они продавали детенышей животных, когда хозяйство заполнено, а не удаляли их.
+
+Например, предположим, что ваш коровник вмещает 20 коров и содержит 18 коров.
+Если из этих коров 4 готовы к воспроизводству, то при воспроизводстве в коровник добавляются 2 теленка, а 2 теленка продаются.
+
+Список изменений:
+v1.0.0.0
+- Первоначальный выпуск.
+
+Пожалуйста, оставляйте отзывы, запросы или отчеты об ошибках на GitHub: https://github.com/richpet9/excess-animals-sold.
 ]]>
 </ru>
-    <fr><![CDATA[
+    <fr><![CDATA[Animaux Excédentaires Vendus
+
+Ce mod modifie les objets d'élevage afin qu'ils vendent des bébés animaux lorsque l'élevage est plein, plutôt que de les supprimer.
+
+Par exemple, supposons que votre étable ait une capacité de 20 vaches et contienne 18 vaches.
+Si 4 de ces vaches sont prêtes à se reproduire, alors lors de la reproduction, 2 veaux seront ajoutés au hangar et 2 veaux seront vendus.
+
+Journal des modifications :
+v1.0.0.0
+- Version initiale.
+
+Veuillez laisser vos commentaires, demandes ou rapports de bogues sur GitHub : https://github.com/richpet9/excess-animals-sold
 ]]>
 </fr>
-    <it><![CDATA[
+    <it><![CDATA[Animali in Eccesso Venduti
+
+Questa mod modifica i posizionamenti dell'allevamento di animali in modo da vendere cuccioli quando l'allevamento è pieno, anziché eliminarli.
+
+Ad esempio, supponiamo che la tua stalla abbia una capacità di 20 mucche e ne contenga 18.
+Se 4 di queste mucche sono pronte per riprodursi, dopo la riproduzione 2 vitelli verranno aggiunti alla stalla e 2 vitelli verranno venduti.
+
+Registro delle modifiche:
+v1.0.0.0
+- Rilascio iniziale.
+
+Si prega di lasciare feedback, richieste o segnalazioni di bug su GitHub: https://github.com/richpet9/excess-animals-sold
 ]]>
 </it>
-    <es><![CDATA[
+    <es><![CDATA[Exceso de Animales Vendidos
+
+Este mod cambia los lugares de cría de animales para que vendan animales bebés cuando la cría esté llena, en lugar de eliminarlos.
+
+Por ejemplo, supongamos que su establo tiene una capacidad de 20 vacas y contiene 18 vacas.
+Si 4 de esas vacas están listas para reproducirse, al reproducirse se agregarán 2 terneros al cobertizo y se venderán 2 terneros.
+
+Registro de cambios:
+v1.0.0.0
+- Lanzamiento inicial.
+
+Deje comentarios, solicitudes o informes de errores en GitHub: https://github.com/richpet9/excess-animals-sold
 ]]>
 </es>
     </description>
