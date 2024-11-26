@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="91">
+    <author>RichOPick</author>
+    <version>1.0.0.0</version>
+	<title>
+        <en>Excess Animals Sold</en>
+        <de>Überschüssige Tiere Verkauft</de>
+        <pl>Sprzedano Nadmiar Zwierząt</pl>
+        <ru>Лишние животные проданы</ru>
+        <fr>Animaux Excédentaires Vendus</fr>
+        <it>Animali in Eccesso Venduti</it>
+        <es>Exceso de Animales Vendidos</es>
+    </title>
+    <description>
+        <en><![CDATA[Excess Animals Sold
+
+This mod changes animal husbandry placeables so they sell baby animals when the husbandry is full, rather than deleting them.
+
+For example, suppose your cowshed has a capacity of 20 cows and contains 18 cows.
+If 4 of those cows are ready to reproduce, then upon reproducing 2 calves will be added to the shed, and 2 calves will be sold.
+
+Changelog:
+v1.0.0.0
+- Initial release.
+]]>
+</en>
+    <de><![CDATA[
+]]>
+</de>
+    <pl><![CDATA[
+]]>
+</pl>
+    <ru><![CDATA[
+]]>
+</ru>
+    <fr><![CDATA[
+]]>
+</fr>
+    <it><![CDATA[
+]]>
+</it>
+    <es><![CDATA[
+]]>
+</es>
+    </description>
+    <iconFilename>icon_fw.dds</iconFilename>
+    <multiplayer supported="true" />
+
+	<extraSourceFiles>
+		<sourceFile filename="ExcessAnimalsSold.lua" />
+	</extraSourceFiles>
+
+    <l10n>
+        <text name="rp_EXCESS_ANIMALS_SOLD">
+            <en>Excess animals sold</en>
+            <de>Überschüssige tiere verkauft</de>
+            <pl>Sprzedano nadmiar zwierząt</pl>
+            <ru>Лишние животные проданы</ru>
+            <fr>Animaux excédentaires vendus</fr>
+            <it>Animali in eccesso venduti</it>
+            <es>Exceso de animales vendidos</es>
+        </text>
+    </l10n>
+</modDesc>
