@@ -79,6 +79,9 @@ end
 PlaceableHusbandryAnimals.onPeriodChanged = Utils.prependedFunction(
     PlaceableHusbandryAnimals.onPeriodChanged, ExcessAnimalsSold.onPeriodChanged)
 
+-- The two below AnimalCluster functions have side-effects, so we want to check if we _should_
+-- execute them before fullfilling the execution call.
+
 AnimalCluster.onPeriodChanged = Utils.overwrittenFunction(AnimalCluster.onPeriodChanged,
     function(self, superFunc)
         if ExcessAnimalsSold._DEBUG_ then
@@ -101,6 +104,7 @@ AnimalCluster.updateReproduction = Utils.overwrittenFunction(AnimalCluster.updat
         end
 
         if self.updateFunctionsAlreadyCalled then
+            -- Return the amount of new animals without the side-effects of superFunc().
             return self.newAnimalsThisPeriod
         end
         return superFunc(self)
