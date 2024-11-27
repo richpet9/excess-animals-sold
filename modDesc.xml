@@ -83,7 +83,8 @@ Deje comentarios, solicitudes o informes de errores en GitHub: https://github.co
 ]]>
 </es>
     </description>
-    <iconFilename>icon_fw.dds</iconFilename>
+
+    <iconFilename>icon_eas.dds</iconFilename>
     <multiplayer supported="true" />
 
 	<extraSourceFiles>
