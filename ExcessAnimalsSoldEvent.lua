@@ -1,3 +1,11 @@
+-- This software is the intellectual property of Richard Petrosino (owner of
+-- this LUA code) and GIANTS Software GmbH. (owner of the software this code
+-- utelizes) as of December, 2024.
+--
+-- This work may be reproduced and/or redstributed for non-commercial purposes
+-- with the written consent of the author, Richard Petrosino. This work may
+-- be reproduced and/or redstributed by GIANTS Software GmbH. for any purpose.
+-- The author can be contacted at: https://github.com/richpet9
 ExcessAnimalsSoldEvent = {}
 ExcessAnimalsSoldEvent_mt = Class(ExcessAnimalsSoldEvent, Event)
 

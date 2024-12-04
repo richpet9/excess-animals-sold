@@ -1,3 +1,11 @@
+-- This software is the intellectual property of Richard Petrosino (owner of
+-- this LUA code) and GIANTS Software GmbH. (owner of the software this code
+-- utelizes) as of December, 2024.
+--
+-- This work may be reproduced and/or redstributed for non-commercial purposes
+-- with the written consent of the author, Richard Petrosino. This work may
+-- be reproduced and/or redstributed by GIANTS Software GmbH. for any purpose.
+-- The author can be contacted at: https://github.com/richpet9
 ExcessAnimalsSold = {}
 ExcessAnimalsSold.modName = g_currentModName
 ExcessAnimalsSold.modDir = g_currentModDirectory
@@ -38,6 +46,8 @@ function ExcessAnimalsSold:onPeriodChanged()
                 local numAnimalsToSell = math.max(animalCluster.numAnimals - freeSlots, 0)
 
                 if numAnimalsToSell > 0 then
+                    -- TODO: This is the parent price, not the baby price. Get the baby price instead,
+                    -- and remove the sellPriceFactor.
                     local singlePrice = animalCluster:getSellPrice()
                     local feePrice = -animalCluster:getTranportationFee(numAnimalsToSell)
                     local sellPrice = (singlePrice * numAnimalsToSell) + feePrice
