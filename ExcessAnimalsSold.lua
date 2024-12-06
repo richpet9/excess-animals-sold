@@ -11,8 +11,6 @@ ExcessAnimalsSold.modName = g_currentModName
 ExcessAnimalsSold.modDir = g_currentModDirectory
 ExcessAnimalsSold._DEBUG_ = true
 
-ExcessAnimalsSold.sellPriceFactor = 0.5 -- Helps prevent money printing, adjust to liking.
-
 source(ExcessAnimalsSold.modDir .. 'ExcessAnimalsSoldEvent.lua')
 
 -- Add this util function to AnimalCluster since we want to determine if an AnimalCluster will
@@ -46,12 +44,11 @@ function ExcessAnimalsSold:onPeriodChanged()
                 local numAnimalsToSell = math.max(animalCluster.numAnimals - freeSlots, 0)
 
                 if numAnimalsToSell > 0 then
-                    -- TODO: This is the parent price, not the baby price. Get the baby price instead,
-                    -- and remove the sellPriceFactor.
-                    local singlePrice = animalCluster:getSellPrice()
-                    local feePrice = -animalCluster:getTranportationFee(numAnimalsToSell)
-                    local sellPrice = (singlePrice * numAnimalsToSell) + feePrice
-                    totalPrice = totalPrice + (sellPrice * ExcessAnimalsSold.sellPriceFactor)
+                    local singlePrice = g_currentMission.animalSystem:getAnimalBuyPrice(
+                        animalCluster:getSubTypeIndex(), 0) -- 0 is the age.
+                    local sellPrice = singlePrice * numAnimalsToSell
+
+                    totalPrice = totalPrice + sellPrice
                     totalAnimalsSold = totalAnimalsSold + numAnimalsToSell
                 end
             end
