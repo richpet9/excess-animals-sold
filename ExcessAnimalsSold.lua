@@ -9,7 +9,7 @@
 ExcessAnimalsSold = {}
 ExcessAnimalsSold.modName = g_currentModName
 ExcessAnimalsSold.modDir = g_currentModDirectory
-ExcessAnimalsSold._DEBUG_ = true
+ExcessAnimalsSold._DEBUG_ = false
 
 source(ExcessAnimalsSold.modDir .. 'ExcessAnimalsSoldEvent.lua')
 
