@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="92">
+<modDesc descVersion="96">
     <author>RichOPick</author>
     <version>1.0.0.0</version>
 	<title>
@@ -94,7 +94,7 @@ Deje comentarios, solicitudes o informes de errores en GitHub: https://github.co
     <l10n>
         <text name="rp_EXCESS_ANIMALS_SOLD">
             <en>Excess animals sold</en>
-            <de>Überschüssige tiere verkauft</de>
+            <de>Überschüssige Tiere verkauft</de>
             <pl>Sprzedano nadmiar zwierząt</pl>
             <ru>Лишние животные проданы</ru>
             <fr>Animaux excédentaires vendus</fr>
